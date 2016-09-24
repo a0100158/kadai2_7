@@ -10,7 +10,7 @@ public class Kadai2_7
 			System.out.println("入力値が0～50ではなかったので終了します。");
 			System.exit(0);
 		}
-		for(int i = 0;i < intSeisu; i++){
+		for(int i = 0;i <= intSeisu; i++){
 			System.out.println(fibo(i));
 		}
 	}
